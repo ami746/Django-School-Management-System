@@ -1,0 +1,20 @@
+
+SchoolManagementSystem/
+│── manage.py  # Django project manager
+│── db.sqlite3  # Database (Can be switched to PostgreSQL)
+│── requirements.txt  # Dependencies
+│
+├── school/  # Main Django app
+│   ├── models.py  # Database models (Students, Teachers, Attendance, Fees)
+│   ├── views.py  # Application logic (CRUD operations)
+│   ├── urls.py  # Routes and endpoints
+│   ├── serializers.py  # API serializers for Django REST Framework
+│   ├── admin.py  # Django Admin customization
+│   ├── forms.py  # Forms for data entry
+│   ├── templates/  # HTML templates
+│
+├── static/  # CSS, JavaScript, Images
+│── templates/  # Frontend HTML Files
+│
+├── settings.py  # Django settings (Database, Installed Apps, Security)
+└── wsgi.py  # Deployment entry point
